@@ -146,9 +146,9 @@ nav, button {
 	padding-top: ;
 	text-align: center;
 	border-top: 5px double black;
-	width: 50%;
-	/*margin-left: 25%;
-*/}
+	width: 100%;
+	
+}
 
 .full-width{
 	width: 100%;
@@ -181,4 +181,7 @@ nav, button {
 	margin:30px;
 }
 
+#introp{
 
+	padding-bottom: 200px;
+}
