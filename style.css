@@ -94,6 +94,7 @@ nav, button {
 .text {
 	font: 15px 'Libre Baskerville';
 	text-align: left;
+	color: black;
 
 	
 }
@@ -118,7 +119,7 @@ nav, button {
 	font: 4em 'Libre Baskerville';
 	color: black;
 	/*text-shadow: 3px 3px 2px black;*/
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 .subSectionHead{
@@ -151,6 +152,33 @@ nav, button {
 
 .full-width{
 	width: 100%;
+}
+
+
+.skillsSectionHead{
+	padding-top: 100px;
+	text-align: center;
+	text-decoration: underline;
+	font: 25px 'Libre Baskerville';
+	color: black;
+	
+}
+.skills-and-tools {
+  /*max-width: 400px;
+  margin: 40px;*/
+  font: 15px 'Libre Baskerville';
+  text-align: center;
+  color: black;
+}
+
+.icons{
+
+	text-align: center;
+	position: relative;
+}
+
+.icon{
+	margin:30px;
 }
 
 
