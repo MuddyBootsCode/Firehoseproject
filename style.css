@@ -1,0 +1,152 @@
+* {
+	margin:0;
+}
+
+html, body {
+	height: 100%;
+	
+
+}
+
+h1,h2,h3,h4,h5,h6, p {
+	margin-bottom: 20px;
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,.0);
+	z-index:99;
+	text-align: center;
+	margin-top:0px;
+	padding-bottom: 20px;
+}
+
+nav, button {
+	font-family: 'Libre Baskerville', san-serif;
+}
+
+.ghost-button-semi-transparent {
+  display: inline-block;
+  width: 185px;
+  padding: 8px;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+
+
+
+.homeButton {
+	font: 4em 'Libre Baskerville';
+	text-shadow: 2px 2px 2px black;
+}
+
+.sect {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.subSection {
+	display: block;
+	height: 50%
+	background-color: white;
+	border: 2px solid black;
+	overflow: auto;
+}
+
+.sectOne {
+	background-image: url('https://res.cloudinary.com/dqfo7smhl/image/upload/v1492102889/earlyWork_hdwkai.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sectTwo {
+	background-image: url('http://res.cloudinary.com/dqfo7smhl/image/upload/v1492102272/morningDrive_n0o9tj.jpg');
+}
+
+.sectThree {
+	background-image: url('http://res.cloudinary.com/dqfo7smhl/image/upload/v1492102289/swd_yg8hlj.jpg');
+}
+
+.text {
+	font: 15px 'Libre Baskerville';
+	text-align: left;
+
+	
+}
+
+.headOne {
+	font: 6em 'Libre Baskerville';
+	color: #F0F0F0;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 20px;
+}
+
+.pageTag:hover,
+.pageTag:visited,
+.pageTag:link,
+.pageTab:active {
+	text-decoration: none !important;
+	pointer-events: none;
+	border: none;
+}
+
+.sectionHead {
+	font: 4em 'Libre Baskerville';
+	color: black;
+	/*text-shadow: 3px 3px 2px black;*/
+	margin-top: 50px;
+}
+
+.subSectionHead{
+	text-align: left;
+	text-decoration: underline;
+	font: 20px 'Libre Baskerville';
+	color: black;
+	
+}
+
+.box {
+  float: left;
+  background-color: ;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 80px;
+}
+
+.clear {
+	clear:both;
+}
+
+.rule{
+	padding-top: ;
+	text-align: center;
+	border-top: 5px double black;
+	width: 50%;
+	/*margin-left: 25%;
+*/}
+
+
