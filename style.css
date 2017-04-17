@@ -3,16 +3,19 @@
 }
 
 html, body {
+
 	height: 100%;
 	
 
 }
 
 h1,h2,h3,h4,h5,h6, p {
+
 	margin-bottom: 20px;
 }
 
 nav {
+
 	position: absolute;
 	width: 100%;
 	height: 50px;
@@ -24,10 +27,12 @@ nav {
 }
 
 nav, button {
+
 	font-family: 'Libre Baskerville', san-serif;
 }
 
 .ghost-button-semi-transparent {
+
   display: inline-block;
   width: 185px;
   padding: 8px;
@@ -43,6 +48,7 @@ nav, button {
 
 .ghost-button-semi-transparent:hover,
 .ghost-button-semi-transparent:active {
+
   background-color: #fff; /* fallback */
   background-color: rgba(255, 255, 255, 0.4);
   border-color: #fff; /* fallback */
@@ -56,11 +62,13 @@ nav, button {
 
 
 .homeButton {
+
 	font: 4em 'Libre Baskerville';
 	text-shadow: 2px 2px 2px black;
 }
 
 .sect {
+
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -68,6 +76,7 @@ nav, button {
 }
 
 .subSection {
+
 	display: block;
 	height: 50%
 	background-color: white;
@@ -76,6 +85,7 @@ nav, button {
 }
 
 .sectOne {
+
 	background-image: url('https://res.cloudinary.com/dqfo7smhl/image/upload/v1492102889/earlyWork_hdwkai.jpg');
 	display: flex;
 	flex-direction: column;
@@ -84,22 +94,25 @@ nav, button {
 }
 
 .sectTwo {
+
 	background-image: url('http://res.cloudinary.com/dqfo7smhl/image/upload/v1492102272/morningDrive_n0o9tj.jpg');
 }
 
 .sectThree {
+
 	background-image: url('http://res.cloudinary.com/dqfo7smhl/image/upload/v1492102289/swd_yg8hlj.jpg');
 }
 
 .text {
+
 	font: 15px 'Libre Baskerville';
 	text-align: left;
 	color: black;
 
-	
 }
 
 .headOne {
+
 	font: 6em 'Libre Baskerville';
 	color: #F0F0F0;
 	text-shadow: 2px 2px 2px black;
@@ -110,19 +123,21 @@ nav, button {
 .pageTag:visited,
 .pageTag:link,
 .pageTab:active {
+
 	text-decoration: none !important;
 	pointer-events: none;
 	border: none;
 }
 
 .sectionHead {
+
 	font: 4em 'Libre Baskerville';
 	color: black;
-	/*text-shadow: 3px 3px 2px black;*/
 	margin-top: 10px;
 }
 
 .subSectionHead{
+
 	text-align: left;
 	text-decoration: underline;
 	font: 25px 'Libre Baskerville';
@@ -130,7 +145,18 @@ nav, button {
 	
 }
 
+.snippetsSectionHead{
+	
+	text-align: center;
+	font: 4em 'Libre Baskerville';
+	color: black;
+	margin-top: 25px
+	
+}
+
+
 .box {
+
   float: left;
   background-color: ;
   width: 42.5%;
@@ -143,14 +169,24 @@ nav, button {
 }
 
 .rule{
-	padding-top: ;
-	text-align: center;
+	
+	/*text-align: center;*/
 	border-top: 5px double black;
 	width: 100%;
 	
 }
 
+.snippets{
+
+	text-align: center;
+	border-top: 5px double black;
+	width: 50%;
+	margin-left: 25%;
+
+}
+
 .full-width{
+
 	width: 100%;
 }
 
@@ -164,8 +200,7 @@ nav, button {
 	
 }
 .skills-and-tools {
-  /*max-width: 400px;
-  margin: 40px;*/
+  
   font: 15px 'Libre Baskerville';
   text-align: center;
   color: black;
@@ -181,7 +216,8 @@ nav, button {
 	margin:30px;
 }
 
-#introp{
+#intro{
 
-	padding-bottom: 200px;
+	padding-bottom: 100px;
+	font: 25px 'Libre Baskerville';
 }
