@@ -103,6 +103,16 @@ nav, button {
 	background-image: url('http://res.cloudinary.com/dqfo7smhl/image/upload/v1492102289/swd_yg8hlj.jpg');
 }
 
+
+.contactSection {
+
+	display: block;
+	height: 100%
+	background-color: white;
+	border: 2px solid black;
+	overflow: auto;
+}
+
 .text {
 
 	font: 15px 'Libre Baskerville';
@@ -220,4 +230,10 @@ nav, button {
 
 	padding-bottom: 100px;
 	font: 25px 'Libre Baskerville';
+}
+
+.contact-email{
+
+	font: 20px 'Libre Baskerville';
+	color: black;
 }
