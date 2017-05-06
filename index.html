@@ -27,6 +27,7 @@
 
 	  <script type="text/javascript" src="./prism/prism.js"></script>
 	  <script type="text/javascript" src="./prism/prism.ruby.js"></script>
+	  <script type="text/javascript" src="./prism/prism-python.min.js"></script>
 
 
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -143,28 +144,52 @@
 
 			<div class="box">
 
-				<pre><code class="language-ruby">
-				  def ordinal_calculator (user_input)
-				  	if user_input % 100 &gt;= 11 &amp;&amp; user_input % 100 &lt;= 13
-				  		return &quot;th&quot;
-				  	end
+				<pre><code class="language-python">
 
-				  	if user_input % 10 == 1
-				  		return &quot;st&quot;
-				  	elsif user_input % 10 == 2
-				  		return &quot;nd&quot;
-				  	elsif user_input % 10 == 3
-				  		return &quot;rd&quot;
-				  	else 
-				  		return &quot;th&quot;
-				  	end
-				  end
-				  		
-				  print &quot;Please enter a number: &quot;
+				 import random
 
-				  user_number = gets.chomp.to_i
+				 # Creates the computers choice
+				 def roshambo(randomChoice):
+				     if randomChoice == 1:
+				         return 'scissors'
+				     elif randomChoice == 2:
+				         return 'rock'
+				     else:
+				         return 'paper'
 
-				  puts &quot;That's the #{user_number}#{ordinal_calculator(user_number)} number!&quot;
+				 # Matches computers choice with the players choice to find a winner
+				 def rock_paper_scissors(player_choice):
+				     if player_choice.lower() == 'rock' and auto_play not in ('paper', 'rock'):
+				         return 'Winner!'
+				     elif player_choice.lower() == 'scissors' and auto_play not in ('scissors', 'rock'):
+				         return 'Winner!'
+				     elif player_choice.lower() == 'paper' and auto_play not in ('paper', 'scissors'):
+				         return 'Winner!'
+				     elif player_choice.lower() == auto_play:
+				         return 'Draw!'
+				     else:
+				         return 'You lose!'
+
+				 # Keeps playing RPS as long as the player says yes
+				 keep_playing = True
+
+				 while keep_playing == True:
+
+				     play = input(str("Would you like to play rock, paper, scissors? yes or no?\n"))
+
+				     if play.lower() == 'yes':
+				         player_choice = input(str("Ok! what's your choice?\n"))
+				         r = random.randint(1, 3)
+				         auto_play = roshambo(r)
+				         result = rock_paper_scissors(player_choice)
+				         print('{}, You chose {} and I chose {}'.format(result, player_choice, auto_play))
+				     elif play.lower() == 'no':
+				         keep_playing = False
+				     else:
+				         print("I'm sorry I don't understand.")
+
+				 print('Ok take care!')
+
 
 				</code></pre>
 
@@ -172,14 +197,14 @@
 
 			<div class="box">
 
-			  <h4 class = subSectionHead>Ordinal Challenge</h4>
+			  <h4 class = subSectionHead>Rock, Paper, Scissors</h4>
 
 			    <p class = "text">
 
-			      This ruby program will convert a plain number
-			      to the ordinal of the number. So for example,
-			      if the user enters 2, it will display 2nd, if
-			      the user enters 3, it will display 3rd, etc.
+			      This python program will play Rock, Paper, Scissors.
+			      It contains a few small methods to determine both 
+			      computer and player choices as well as very basic
+			      error handling.
 
 			    </p>
 
@@ -381,9 +406,16 @@
 		
 	</div>
 
-	<div class="subSection">
+	<div class="contactSection">
 
 		<a onclick="return false" href name="contact" class="pageTag"><h1 class="sectionHead"></a>Contact</h1>
+
+		<a href="mailto:firsttogo98@gmail.com" class="contact-email">
+		Email: MuddyBootsCode
+		</a>
+		
+		
+
 
 	</div>
 
