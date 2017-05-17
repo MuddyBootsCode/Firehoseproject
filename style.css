@@ -129,6 +129,15 @@ nav, button {
 	padding-top: 20px;
 }
 
+.headTwo {
+
+  font-family: 'Libre Baskerville';
+  color:#F0F0F0;
+  text-shadow: 2px 2px 2px black;
+
+
+}
+
 .pageTag:hover,
 .pageTag:visited,
 .pageTag:link,
